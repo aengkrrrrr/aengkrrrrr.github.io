@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eee6f60e.css",
+    "main.js": "/static/js/main.d9d2ff81.js",
+    "static/media/miraeesset_img.png": "/static/media/miraeesset_img.49f0f86bb9245894ac8a.png",
+    "static/media/nars_img.png": "/static/media/nars_img.c506bb8c29c90c0106b2.png",
+    "static/media/lottewelfood_img.png": "/static/media/lottewelfood_img.fdace5074668ff7b40af.png",
+    "static/media/palgongtea_img.png": "/static/media/palgongtea_img.18fb93e95452c0a9f881.png",
+    "static/media/dlkang_img.jpg": "/static/media/dlkang_img.06281d170c395f21dbd8.jpg",
+    "static/media/view_img.png": "/static/media/view_img.b216c78b976ffd445328.png",
+    "static/media/circle_kang.png": "/static/media/circle_kang.828a0afce9d400a4386d.png",
+    "static/media/circle_mirae.png": "/static/media/circle_mirae.ff20c2fc8b6821f154a4.png",
+    "static/media/circle_lotte.png": "/static/media/circle_lotte.9ba70e87c294f3b359b7.png",
+    "static/media/circle_nars.png": "/static/media/circle_nars.be1c70c0ab2e23be077e.png",
+    "static/media/circle_palgong.png": "/static/media/circle_palgong.9abbc4b748637c2f7ac5.png",
+    "index.html": "/index.html",
+    "static/media/call_24dp_FILL1_wght400_GRAD0_opsz24 (1).svg": "/static/media/call_24dp_FILL1_wght400_GRAD0_opsz24 (1).01e2af2a856138f2e030.svg",
+    "static/media/mail_24dp_FILL1_wght400_GRAD0_opsz24 (1).svg": "/static/media/mail_24dp_FILL1_wght400_GRAD0_opsz24 (1).959bf418ad03c15222f4.svg",
+    "static/media/close_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1.svg": "/static/media/close_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1.444a2b2db7e93c318176.svg",
+    "main.eee6f60e.css.map": "/static/css/main.eee6f60e.css.map",
+    "main.d9d2ff81.js.map": "/static/js/main.d9d2ff81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eee6f60e.css",
+    "static/js/main.d9d2ff81.js"
+  ]
+}
