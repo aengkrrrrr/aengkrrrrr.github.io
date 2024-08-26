@@ -1,27 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.78c08cb1.css",
-    "main.js": "/static/js/main.a3b331ea.js",
+    "main.css": "/static/css/main.11172c99.css",
+    "main.js": "/static/js/main.90e6e8d7.js",
     "static/media/miraeesset_img.png": "/static/media/miraeesset_img.49f0f86bb9245894ac8a.png",
     "static/media/nars_img.png": "/static/media/nars_img.c506bb8c29c90c0106b2.png",
     "static/media/lottewelfood_img.png": "/static/media/lottewelfood_img.fdace5074668ff7b40af.png",
     "static/media/palgongtea_img.png": "/static/media/palgongtea_img.18fb93e95452c0a9f881.png",
     "static/media/dlkang_img.jpg": "/static/media/dlkang_img.06281d170c395f21dbd8.jpg",
     "static/media/view_img.png": "/static/media/view_img.b216c78b976ffd445328.png",
+    "static/media/png-clipart-jquery-logo-web-development-jquery-ui-javascript-computer-icons-jqlogo-emblem-label-removebg-preview.png": "/static/media/png-clipart-jquery-logo-web-development-jquery-ui-javascript-computer-icons-jqlogo-emblem-label-removebg-preview.f43ebc84d9bb62adcb6a.png",
+    "static/media/92C2FD05-1600-4E46-8091-1959ED19CE06-removebg-preview.png": "/static/media/92C2FD05-1600-4E46-8091-1959ED19CE06-removebg-preview.880d516b17b2c3d53826.png",
+    "static/media/png-clipart-react-javascript-angularjs-ionic-github-text-logo-thumbnail-removebg-preview.png": "/static/media/png-clipart-react-javascript-angularjs-ionic-github-text-logo-thumbnail-removebg-preview.970ac177ef80f937f314.png",
+    "static/media/png-transparent-mysql-logo-mysql-database-web-development-computer-software-dolphin-marine-mammal-animals-text-thumbnail-removebg-preview.png": "/static/media/png-transparent-mysql-logo-mysql-database-web-development-computer-software-dolphin-marine-mammal-animals-text-thumbnail-removebg-preview.d2f02eecddbcf9a4f431.png",
     "static/media/circle_kang.png": "/static/media/circle_kang.828a0afce9d400a4386d.png",
+    "static/media/images-removebg-preview.png": "/static/media/images-removebg-preview.a4c71459e3b78f093397.png",
     "static/media/circle_mirae.png": "/static/media/circle_mirae.ff20c2fc8b6821f154a4.png",
     "static/media/circle_lotte.png": "/static/media/circle_lotte.9ba70e87c294f3b359b7.png",
     "static/media/circle_nars.png": "/static/media/circle_nars.be1c70c0ab2e23be077e.png",
     "static/media/circle_palgong.png": "/static/media/circle_palgong.9abbc4b748637c2f7ac5.png",
+    "static/media/free-icon-css-919826.png": "/static/media/free-icon-css-919826.02d225c7df0b28341d8d.png",
+    "static/media/free-icon-html-5-5968267.png": "/static/media/free-icon-html-5-5968267.cfb2ba4a6b1c3de295bc.png",
+    "static/media/free-icon-js-5968292.png": "/static/media/free-icon-js-5968292.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "static/media/call_24dp_FILL1_wght400_GRAD0_opsz24 (1).svg": "/static/media/call_24dp_FILL1_wght400_GRAD0_opsz24 (1).01e2af2a856138f2e030.svg",
     "static/media/mail_24dp_FILL1_wght400_GRAD0_opsz24 (1).svg": "/static/media/mail_24dp_FILL1_wght400_GRAD0_opsz24 (1).959bf418ad03c15222f4.svg",
     "static/media/close_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1.svg": "/static/media/close_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1.444a2b2db7e93c318176.svg",
-    "main.78c08cb1.css.map": "/static/css/main.78c08cb1.css.map",
-    "main.a3b331ea.js.map": "/static/js/main.a3b331ea.js.map"
+    "main.11172c99.css.map": "/static/css/main.11172c99.css.map",
+    "main.90e6e8d7.js.map": "/static/js/main.90e6e8d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.78c08cb1.css",
-    "static/js/main.a3b331ea.js"
+    "static/css/main.11172c99.css",
+    "static/js/main.90e6e8d7.js"
   ]
 }
