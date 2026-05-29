@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+  <meta property="og:title" content="모여봐요 동물의 숲 심리테스트 🌿">
+  <meta property="og:description" content="나와 닮은 동숲 주민은 누구? 지금 바로 테스트해보세요!">
+  <meta property="og:image" content="https://aengkrrrrr.github.io/Animal_Crossing_Test/images/4c697a587fc71310fc9e3d63d5562e84.jpg">
+  <meta property="og:url" content="https://aengkrrrrr.github.io/Animal_Crossing_Test/">
+  <meta property="og:type" content="website">
+  <title>모여봐요 동물의 숲 테스트 🌿</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <main class="grid">
+
+    <!-- ① 인트로 -->
+    <section class="intro">
+      <p class="intro-subtitle">🌿 나와 닮은 동숲 주민은 누구일까?</p>
+      <img class="main_bg" src="images/4c697a587fc71310fc9e3d63d5562e84.jpg" alt="동물의 숲 배경">
+      <button type="button" class="start_btn">시작하기 🌿</button>
+    </section>
+
+    <!-- ② Q&A -->
+    <section class="qna">
+      <!-- 배경 위 반투명 오버레이 -->
+      <div class="qna-overlay"></div>
+
+      <div class="status">
+        <div class="status_bar"></div>
+      </div>
+      <div class="qna_wrap">
+        <div class="qArea"></div>
+        <div class="aArea"></div>
+      </div>
+    </section>
+
+    <!-- ③ 결과 -->
+    <section class="result">
+      <p class="result-heading">나와 닮은 동숲 주민은?</p>
+      <div class="resultImg"></div>
+      <div class="resultName"></div>
+      <div class="result-divider"></div>
+      <div class="resultDesc"></div>
+      <div class="compatSection"></div>
+      <div class="share_wrap"></div>
+      <button type="button" class="retry_btn">🔄 다시 테스트하기</button>
+    </section>
+
+  </main>
+
+  <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/start.js"></script>
+  <script src="js/navigator.js"></script>
+</body>
+</html>
