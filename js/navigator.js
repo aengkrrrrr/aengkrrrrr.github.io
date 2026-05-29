@@ -1,7 +1,7 @@
 // ============================================================
 //  공유 기능 초기화 (결과가 나온 뒤 start.js에서 호출)
 // ============================================================
-const SITE_URL  = window.location.origin + window.location.pathname;
+const SITE_URL  = 'https://aengkrrrrr.github.io/';
 const KAKAO_KEY = '73bae3352b43587b4d39e109e0f2ce78';
 
 // 카카오 SDK 초기화 (중복 방지)
