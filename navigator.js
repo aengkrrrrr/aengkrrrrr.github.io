@@ -16,9 +16,6 @@ function initShareButtons(res, mbtiType) {
       <img src="images/kakao_icon.png" alt="카카오" onerror="this.style.display='none'">
       카카오톡 공유
     </button>
-    <button class="share-btn twitter-btn" id="btnTwitter">
-      𝕏 트위터 공유
-    </button>
     <button class="share-btn copy-btn" id="btnCopy">
       🔗 링크 복사
     </button>
