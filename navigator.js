@@ -1,8 +1,8 @@
 // ============================================================
 //  공유 기능 초기화 (결과가 나온 뒤 start.js에서 호출)
 // ============================================================
-const SITE_URL   = 'https://aengkrrrrr.github.io/Animal_Crossing_Test/'; 
-const KAKAO_KEY  = '73bae3352b43587b4d39e109e0f2ce78';  
+const SITE_URL  = 'https://aengkrrrrr.github.io/';
+const KAKAO_KEY = '73bae3352b43587b4d39e109e0f2ce78';
 
 // 카카오 SDK 초기화 (중복 방지)
 if (typeof Kakao !== 'undefined' && !Kakao.isInitialized()) {
@@ -23,7 +23,7 @@ function initShareButtons(res, mbtiType) {
 
   const shareTitle = `나는 ${res.emoji} ${res.name} (${mbtiType}) 타입!`;
   const shareDesc  = `나와 닮은 동숲 주민을 찾아봤어요! 지금 테스트해보세요 🌿`;
-  const thumbUrl   = SITE_URL + res.img; // 배포 후 절대경로
+  const thumbUrl   = 'https://aengkrrrrr.github.io/' + res.img;
 
   // 카카오 공유
   document.getElementById('btnKakao').addEventListener('click', () => {
@@ -49,13 +49,6 @@ function initShareButtons(res, mbtiType) {
     });
   });
 
-  // 트위터(X) 공유
-  document.getElementById('btnTwitter').addEventListener('click', () => {
-    const text = encodeURIComponent(`${shareTitle}\n${shareDesc}`);
-    const url  = encodeURIComponent(SITE_URL);
-    window.open(`https://twitter.com/intent/tweet?text=${text}&url=${url}`, '_blank');
-  });
-
   // 링크 복사
   document.getElementById('btnCopy').addEventListener('click', () => {
     navigator.clipboard.writeText(SITE_URL).then(() => {
@@ -63,7 +56,6 @@ function initShareButtons(res, mbtiType) {
       btn.textContent = '✅ 복사됐어요!';
       setTimeout(() => { btn.textContent = '🔗 링크 복사'; }, 2000);
     }).catch(() => {
-      // clipboard API 미지원 시 fallback
       const tmp = document.createElement('textarea');
       tmp.value = SITE_URL;
       document.body.appendChild(tmp);
