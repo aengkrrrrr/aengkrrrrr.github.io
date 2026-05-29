@@ -4,10 +4,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background: #c8e6c9;
-  background-image:
-    radial-gradient(circle at 15% 15%, #a5d6a7 0%, transparent 55%),
-    radial-gradient(circle at 85% 85%, #81c784 0%, transparent 55%);
+  background: #fff;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -34,7 +31,7 @@ main.grid {
 .main_bg {
   width: 100%;
   display: block;
-  aspect-ratio: 3/4;
+  min-height: 100vh;
   object-fit: cover;
 }
 .intro::before {
@@ -111,7 +108,7 @@ main.grid {
 .qna {
   display: none;
   width: 100%;
-  aspect-ratio: 3/4;
+  min-height: 100vh;
   box-sizing: border-box;
   flex-direction: column;
 
@@ -415,12 +412,19 @@ main.grid {
    PC
 ═══════════════════════════════════════════ */
 @media (min-width: 520px) {
+  body { background: #c8e6c9; }
   main.grid {
     margin: 40px auto;
     min-height: auto;
     border-radius: 28px;
     overflow: hidden;
   }
-  .main_bg { aspect-ratio: 9 / 14; }
-  .qna { aspect-ratio: 3/4; min-height: unset; }
+  .main_bg {
+    min-height: unset;
+    aspect-ratio: 9 / 14;
+  }
+  .qna {
+    min-height: unset;
+    aspect-ratio: 3/4;
+  }
 }
